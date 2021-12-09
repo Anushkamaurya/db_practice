@@ -1,4 +1,4 @@
-resource "google_compute_instance" "dev_23" {
+resource "google_compute_instance" "dev_231" {
   name         = "devserver" # name of the server
   machine_type = "f1-micro" # machine type refer google machine types
   zone         = "${var.region}-a" # `a` zone of the selected region in our case us-central-1a
